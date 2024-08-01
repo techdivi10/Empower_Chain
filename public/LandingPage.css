@@ -1,0 +1,128 @@
+.landing-page {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-image:url('D:\Kinjal\CrowdFunding_Frontend\background-img.jpeg');
+
+  }
+ 
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/background-img2.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white;
+  }
+  
+  .header {
+    background-color: hwb(246 38% 10%);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  }
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Roboto', sans-serif; */
+  }
+  /* .header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  }
+  
+  .header p {
+    margin: 0px 10 10;
+    font-size: 1.5em;
+  } */
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header p {
+    margin: 5px 0 0;
+    font-size: 1.5em;
+  }
+
+  .header-buttons {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .main-content {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .fundraiser-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .fundraiser-form label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .fundraiser-form input,
+  .fundraiser-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .fundraiser-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fundraiser-form button:hover {
+    background-color: #0056b3;
+  }
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .signup-login-button,
+.microinsurance-button {
+  padding: 10px 20px;
+  background-color: #fbfbfd;
+  color: #124377;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+
+}
+
+.signup-login-button:hover,
+.microinsurance-button:hover {
+  background-color: #e6e6e6;
+}
+  
